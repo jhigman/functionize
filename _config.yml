@@ -14,9 +14,9 @@ keep_files:
 
 
 # Site settings
-title: Functionize Ltd
-subtitle: "Consultancy, development and support for Ruby on Rails"
-url: "https://functionize.co.uk" # the base hostname & protocol for your site
+title: Julian Higman
+subtitle: "Helping companies keep critical Rails systems reliable, scalable and maintainable."
+url: "https://julianhigman.com" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
