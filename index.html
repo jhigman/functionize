@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Julian Higman — Senior Rails Consultant</title>
-  <meta name="description" content="Senior Ruby on Rails developer and GIS/automation specialist. Fractional or freelance — experienced help without agency overhead.">
+  <title>Julian Higman — AI-Native Senior Rails Consultant</title>
+  <meta name="description" content="Senior Ruby on Rails consultant running an AI-native delivery pipeline: agentic development, automated code review, and production error loops. Upgrades, stability, automation and geospatial systems. Fractional or freelance, UK.">
+  <link rel="canonical" href="https://julianhigman.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://julianhigman.com/">
+  <meta property="og:title" content="Julian Higman — AI-Native Senior Rails Consultant">
+  <meta property="og:description" content="Critical Rails systems kept reliable — and moved forward at a pace that used to take a team. Agentic delivery, human judgement.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -27,10 +32,11 @@
     </button>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
+      <li><a href="#how-i-build">How I Build</a></li>
       <li><a href="#who-i-help">Who I Help</a></li>
       <li><a href="#work">Work</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#technologies">Technologies</a></li>
+      <li><a href="#technologies">Stack</a></li>
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -40,7 +46,7 @@
 <section id="hero">
   <div class="hero-inner">
     <h1>Julian Higman</h1>
-    <p>Helping companies keep critical Rails systems<br>reliable, scalable and maintainable.</p>
+    <p>Senior Rails consultant with an AI-native delivery pipeline. Critical systems kept reliable — and moved forward at a pace that used to take a team.</p>
     <a href="#contact" class="hero-cta">Get in touch</a>
   </div>
 </section>
@@ -49,122 +55,171 @@
   <div class="container">
     <h2>About Me</h2>
     <p class="lead">Senior Ruby on Rails developer and GIS/automation specialist, available fractionally or as a freelancer — experienced, independent help without agency overhead.</p>
-    <p>Specialising in the harder end of Rails work: legacy upgrades, long-running system stability, deployment and ops, and the operational problems that don't have obvious answers. A particular niche in geospatial systems: map platforms, planning and property portals, FME/Rails APIs, CAD/web integrations and geospatial automation.</p>
+    <p>I specialise in the harder end of Rails work: legacy upgrades, long-running system stability, deployment and ops, and the operational problems that don't have obvious answers. A particular niche in geospatial systems — map platforms, planning and property portals, FME/Rails APIs, CAD/web integrations and geospatial automation.</p>
+    <p>What has changed is the throughput. Every part of my delivery pipeline is now agentic: implementation written in Cursor with Grok's Composer model, every pull request reviewed automatically by Copilot before I look at it, and Sentry wired into Slack so production tells us what's actually broken. The judgement about what to change — and what not to touch — is still mine. The tedious mechanical work is not.</p>
     <p>Need experienced Rails help without hiring full-time? <a href="#contact">Get in touch.</a></p>
   </div>
 </section>
 
-<section id="who-i-help" class="bg-light">
+<section id="how-i-build" class="bg-light">
+  <div class="container">
+    <h2>How I Build</h2>
+    <p class="section-sub">AI isn't a line on my invoice — it's how the work gets done</p>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Brief first, then code</h3>
+        <p>I write the spec, the constraints and the failing test. The agent works to them. Unbounded prompting is how AI-assisted projects go wrong.</p>
+      </div>
+      <div class="service-card">
+        <h3>Cursor + Grok Composer</h3>
+        <p>The bulk of implementation is agent-written, in-repo, with the whole codebase as context — not copy-pasted from a chat window.</p>
+      </div>
+      <div class="service-card">
+        <h3>Copilot reviews every PR</h3>
+        <p>Automated review runs on every change before a human sees it. Human review time then goes on design decisions instead of typos and missed edge cases.</p>
+      </div>
+      <div class="service-card">
+        <h3>Tests as the guard rail</h3>
+        <p>Agentic speed is only safe with a suite that fails loudly. On legacy codebases, coverage comes before velocity — every time.</p>
+      </div>
+      <div class="service-card">
+        <h3>Sentry → Slack → fix</h3>
+        <p>Production errors arrive in Slack with context, get triaged the same day, and are often fixed before anyone raises a ticket.</p>
+      </div>
+      <div class="service-card">
+        <h3>Progress where you can see it</h3>
+        <p>Deploys, error rates and what changed, reported into your Slack. You shouldn't have to ask a contractor what happened this week.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="who-i-help">
   <div class="container">
     <h2>Who I Help</h2>
     <p class="section-sub">Typical clients who hire me</p>
     <ul class="clean-list">
       <li>Businesses with operationally critical web systems</li>
-      <li>Agencies needing senior Rails support</li>
+      <li>SaaS companies with ageing Rails applications and a backlog they can't clear</li>
       <li>Geospatial, property and automation platforms</li>
-      <li>SaaS companies with aging Rails applications</li>
+      <li>Agencies needing senior Rails support at short notice</li>
+      <li>Teams that want to adopt agentic development without breaking what already works</li>
       <li>Teams needing upgrades, debugging or infrastructure stabilisation</li>
     </ul>
   </div>
 </section>
 
-<section id="work">
+<section id="work" class="bg-light">
   <div class="container">
     <h2>Work</h2>
     <p class="section-sub">Things I do for clients</p>
     <div class="service-grid">
       <div class="service-card">
         <h3>Development</h3>
-        <p>Building from scratch, or adding features to existing sites.</p>
+        <p>Building from scratch, or adding features to existing systems — agent-written, reviewed twice, shipped behind tests.</p>
       </div>
       <div class="service-card">
         <h3>Upgrades</h3>
-        <p>Rails versions are released on a regular schedule, and upgrading is essential for security, functionality and maintainability.</p>
+        <p>Rails majors, Ruby versions, dependency debt. Agentic tooling collapses the mechanical part of an upgrade; the judgement about what will break is the part you're paying for.</p>
       </div>
       <div class="service-card">
         <h3>Maintenance</h3>
-        <p>Software is never "done" — libraries and languages get updated, operating systems get patched, servers become outdated.</p>
+        <p>Software is never "done" — libraries and languages get updated, operating systems get patched, servers become outdated. I keep you on supported versions before it turns into an emergency.</p>
       </div>
       <div class="service-card">
         <h3>Consultancy</h3>
-        <p>Working in collaboration with your company to figure out how to deliver value.</p>
+        <p>Working with your team to decide what's worth building — including where AI genuinely helps and where it's a liability.</p>
+      </div>
+      <div class="service-card">
+        <h3>AI enablement</h3>
+        <p>Setting your developers up with agentic coding, automated review and error-to-agent loops — plus the guard rails that stop it going wrong.</p>
+      </div>
+      <div class="service-card">
+        <h3>Automation &amp; internal tooling</h3>
+        <p>AI-assisted tools for the workflows your team does by hand: review, validation, data wrangling, reporting.</p>
       </div>
       <div class="service-card">
         <h3>Stability</h3>
-        <p>Working to minimise downtime, outages, test failures.</p>
+        <p>Minimising downtime, outages and flaky tests. Production always tells you what's wrong — the job is making sure something is listening.</p>
       </div>
       <div class="service-card">
         <h3>Scaling</h3>
         <p>Success is great, but will the site stay up if you double your users? Triple? ×100?</p>
       </div>
       <div class="service-card">
-        <h3>Monitoring</h3>
-        <p>You should be the first to know if there are problems.</p>
+        <h3>Observability</h3>
+        <p>Sentry, structured logging and alerting wired into Slack. You should be the first to know about problems — ideally alongside the fix.</p>
       </div>
       <div class="service-card">
         <h3>Testing</h3>
-        <p>Reliability, maintainability, rapid development are all based on rigorous testing.</p>
+        <p>Rigorous tests are what make fast, AI-assisted delivery safe rather than reckless. They're the foundation, not the afterthought.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="projects" class="bg-light">
+<section id="projects">
   <div class="container">
     <h2>Recent Projects</h2>
     <p class="section-sub">A selection of recent client work</p>
     <ul class="clean-list">
-      <li>Rails 5 → Rails 7 upgrade for a SaaS platform</li>
-      <li>CI/CD and deployment automation using GitHub Actions</li>
-      <li>Stability improvements for a customer-facing mapping platform</li>
-      <li>AI-assisted tooling for FME workspace review workflows</li>
+      <li>Rails 5 → Rails 7 upgrade for a SaaS platform, run largely through agentic tooling</li>
+      <li>AI-assisted review tooling for FME workspace workflows</li>
       <li>React front end migrated to Rails 8 and Hotwire</li>
+      <li>CI/CD and deployment automation with GitHub Actions, plus automated review on every pull request</li>
+      <li>Sentry → Slack triage loop for a customer-facing mapping platform, so errors are found and fixed before customers report them</li>
     </ul>
   </div>
 </section>
 
-<section id="technologies">
+<section id="technologies" class="bg-light">
   <div class="container">
-    <h2>Technologies</h2>
+    <h2>Stack</h2>
     <p class="section-sub">Tools and platforms I work with</p>
     <div class="tag-cloud">
       <span class="tag">Ruby on Rails</span>
+      <span class="tag">Hotwire</span>
       <span class="tag">PostgreSQL</span>
-      <span class="tag">AWS</span>
-      <span class="tag">Docker</span>
-      <span class="tag">CI/CD</span>
-      <span class="tag">GitHub Actions</span>
       <span class="tag">Sidekiq</span>
       <span class="tag">Redis</span>
-      <span class="tag">API integrations</span>
+      <span class="tag">AWS</span>
+      <span class="tag">Docker</span>
       <span class="tag">Linux infrastructure</span>
+      <span class="tag">GitHub Actions</span>
+      <span class="tag">CI/CD</span>
+      <span class="tag">Cursor</span>
+      <span class="tag">Grok / Composer</span>
+      <span class="tag">GitHub Copilot code review</span>
+      <span class="tag">Agentic development workflows</span>
+      <span class="tag">Sentry</span>
+      <span class="tag">Slack automation</span>
       <span class="tag">Monitoring &amp; observability</span>
-      <span class="tag">AI-assisted development workflows</span>
+      <span class="tag">API integrations</span>
       <span class="tag">FME / geospatial integrations</span>
     </div>
   </div>
 </section>
 
-<section id="pricing" class="bg-light">
+<section id="pricing">
   <div class="container">
     <h2>Pricing</h2>
-    <p class="section-sub">Pricing for UK senior Rails work</p>
+    <p class="section-sub">Day rates for UK senior Rails work — you're buying judgement and accountability; the throughput comes with it</p>
     <ul class="clean-list">
       <li>£500/day basic rate</li>
-      <li>Bespoke pricing for niche projects</li>
-      <li>Negotiable rates for longer-term engagements</li>
       <li>Half days available</li>
+      <li>Negotiable rates for longer-term engagements</li>
+      <li>Bespoke pricing for niche or high-risk projects</li>
     </ul>
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="bg-light">
   <div class="container">
     <h2>Contact</h2>
-    <p class="section-sub">Available for troubleshooting, upgrades, architecture, automation and operational support.</p>
+    <p class="section-sub">Available for upgrades, troubleshooting, architecture, automation and operational support — and for helping your team adopt agentic development.</p>
     <ul class="clean-list">
       <li><a href="mailto:hello@functionize.co.uk">hello@functionize.co.uk</a></li>
-      <li><a href="https://www.linkedin.com/in/jhigman/" target="_blank">LinkedIn →</a></li>
+      <li><a href="https://www.linkedin.com/in/jhigman/" target="_blank" rel="noopener">LinkedIn →</a></li>
     </ul>
   </div>
 </section>
