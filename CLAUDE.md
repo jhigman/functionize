@@ -31,4 +31,4 @@ There is no build step. What is in the repo is what is served.
 
 ## Deployment
 
-Pushing to `master` deploys via GitHub Pages.
+Pushing to `main` deploys via GitHub Pages.
